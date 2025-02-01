@@ -20,4 +20,14 @@
 
 # print(better_quote)
 
-# FORMATTED STRINGS #
+# FORMATTED STRINGS AND NUMBERS #
+
+# name = "Dillon"
+# age = 22
+# height = 6.123
+
+# message = f"{name} is {age} years old and is {height:.1f} tall!"
+# print(message)
+
+# message = f"{name} is {age} years old and is {int(height)} tall!"
+# print(message)
