@@ -30,3 +30,9 @@ years_sorted = sorted(years)
 years_sorted_reversed = sorted(years, reverse=True)
 print(years_sorted)
 print(years_sorted_reversed)
+
+words = ['Max\'s', 'favorite', 'film', 'is', 'The', 'Graduate.'] 
+phrase = " space ".join(words)
+print(phrase)
+
+
