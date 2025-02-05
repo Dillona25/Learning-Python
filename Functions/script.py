@@ -76,4 +76,26 @@ sorted_lowercase = sort_animals(animals)
 sorted_original_case = sort_animals(animals, lowercase=False)
 
 print(sorted_lowercase)
+
+# Practice Coding Question: Analyzing a Number
+# Write a function called analyze_number that takes an integer as an argument and returns the following:
+
+# If the number is positive, negative, or zero.
+# The square of the number.
+# The cube of the number.
+# You should incorporate multiple return statements to 
+# handle whether the number is positive, negative, or zero, and 
+# you should return multiple values (square and cube) from the function.
     
+
+# def analyze_number(num):
+#     num_squared = num * num
+#     num_cubed = num * num * num
+#     if num > 0:
+#         return "positive", num_squared, num_cubed
+#     elif num == 0:
+#         return "zero", num_squared, num_cubed 
+#     elif num < 0:
+#         return "negative", num_squared,num_cubed
+
+# print(analyze_number(2))
